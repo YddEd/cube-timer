@@ -18,7 +18,6 @@ if __name__ == '__main__':
             timer_started = True
             start = datetime.now()
             start_time.set(start)
-            #tkinter.Label(root, textvariable=start_time).grid(row=1, column=1)
         elif keypress.char == " " and timer_started == True:
             timer_started = False
             finish = datetime.now() - start
